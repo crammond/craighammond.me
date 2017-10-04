@@ -7,7 +7,7 @@ class App extends Component {
       <div style={{
         textAlign: "center"
       }}>
-        Hello, welcome to craighammond.me!
+        <h1>Hello, welcome to craighammond.me!</h1>
         <br/><br/>
         There's not a lot going on here yet.
         For now, you can check out
