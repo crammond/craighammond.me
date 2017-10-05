@@ -2,3 +2,10 @@ language: node_js
 node_js: "lts/*"
 install: npm install
 script: npm build
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: build
+  on:
+    branch: gh-pages
