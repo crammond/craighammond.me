@@ -16,8 +16,12 @@ const menuLinks = [
 
 const menuIcons = [
   {
-    icon: 'linkedin square',
+    icon: 'linkedin',
     href: 'https://www.linkedin.com/in/hammondcraigr/'
+  },
+  {
+    icon: 'github',
+    href: 'https://github.com/crammond'
   }
 ]
 
