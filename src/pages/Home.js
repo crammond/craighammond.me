@@ -1,13 +1,17 @@
 import React, { Component } from 'react'
-import PageContent from './common/PageContent';
+import PageContent from './common/PageContent'
+import Terminal from '../components/terminal/Terminal'
 
 class Home extends Component {
   render() {
     return (
         <PageContent>
-            <p>
-              One day this site will be pretty. One day...
-            </p>
+          <Terminal
+            style={{
+              width: '70%',
+              margin: '0 auto'
+            }}
+          />
         </PageContent>
     );
   }
