@@ -79,7 +79,7 @@ class About extends Component {
               <Table.Body>
                 {
                   PERSONAL_RECORDS.map(record => (
-                    <Table.Row>
+                    <Table.Row key={record.event}>
                         <Table.Cell>{record.event}</Table.Cell>
                         <Table.Cell>{record.mark}</Table.Cell>
                         <Table.Cell>{record.date}</Table.Cell>
