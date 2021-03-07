@@ -55,8 +55,7 @@ class About extends Component {
               took AP Computer Science A the next year, got a 5 on the AP exam,
               and have been pretty hooked ever since. I got my BS in Computer
               Science from Northeastern University, and am currently working
-              full-time as a Full-Stack Software Developer at Liberty Mutual
-              Insurance.
+              full-time as a Software Engineer at Catylist.
             </p>
             <Header as='h3'>Interests</Header>
             <Header as='h4'>Running</Header>
